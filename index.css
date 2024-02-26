@@ -1,0 +1,90 @@
+input{
+    padding: 15px;
+    margin-right: 5px;
+    border-radius: 10px;
+    width: 60%;
+    background-color: #F3D7CA;
+}
+button{
+    margin-top:10px;
+    border: none;
+    background-color: rgb(237, 113, 113);
+    border-radius: 10px;
+    padding: 11px;
+}
+button:hover{
+    background-color: coral;
+    border-radius: 5px;
+    padding: 15px;
+}
+#mealCart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.meal-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 220px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.meal-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.meal-item h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+.meal-item a {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.meal-item a:hover {
+    background-color: darkorange;
+}
+body{
+    background-image:url("./bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#recipies{
+   width:70%;
+   height:700px ;
+   margin-left: 20%;
+   position: relative;
+
+}
+#recipie{
+    width: 100px;
+    position: absolute;
+    top:5px;
+    left:20px;
+    right:20px;
+    background-color: pink;
+    border: 2px solid black;
+}
+p{
+    color: darkblue;
+    font-size: 19px;
+    text-align: justify;
+}
+#hh{
+    height: 200px;
+}
+
+h1{
+    font-size: 60px;
+    color: #1D2B53;
+}
